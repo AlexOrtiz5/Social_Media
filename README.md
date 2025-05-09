@@ -3,6 +3,7 @@
 
 # Project objective
   Paragraph with introduction/ objective of project
+  Kaggle : https://www.kaggle.com/datasets/ramjasmaurya/top-1000-social-media-channels
 
 # Methods
   List with methods, ex:
