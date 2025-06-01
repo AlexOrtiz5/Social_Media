@@ -57,7 +57,11 @@
   - Modular Approach for Cleaning and Analysis: The structure of creating separate code blocks (or functions, as in the more comprehensive example) for cleaning and analysis makes the project more organized and easier to manage, especially with multiple datasets involved.
 
 # Conclusion
-  Final conclusion
-  
+  So far, we've been working on analyzing social media influencer data from Instagram, TikTok, and YouTube. We've cleaned and merged the data, and started to explore things like engagement rates across these platforms. Initial looks suggest there might be some interesting differences in how engaging content is on each. For example, TikTok seems to have higher average engagement in our initial calculations or Instagram has a wider range of subscriber counts in our top influencers.
+
+  We also took a peek at the distribution of subscribers. This gave us a first glimpse into the kind of content and creators present on each platform.
+
+  This is just a starting point, and there's still a lot more to dig into with this data to really understand the dynamics of influencers on each platform and how they compare.
+    
 # Contact
   linkedin, github, medium, etc 
