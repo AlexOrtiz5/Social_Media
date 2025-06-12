@@ -40,10 +40,10 @@
 
 # Technologies 
   List with used technologies:
-  - Python: The primary programming language used for data manipulation, analysis, and visualization.
-  - Pandas: A powerful Python library essential for data manipulation and analysis, providing DataFrames for structured data.
-  - Matplotlib: A fundamental Python library for creating static, interactive, and animated visualizations in Python.
-  - Seaborn: A Python data visualization library built on top of Matplotlib, providing a higher-level interface for creating informative and attractive statistical graphics.
+  - Python: This is the core programming language we've used for every step—from loading your data to performing complex analyses and generating stunning visualizations.
+  - Pandas: Absolutely crucial for handling your .csv files. We've relied heavily on Pandas DataFrames to read, clean, combine, and manipulate all your influencer data.
+  - Matplotlib: The foundational Python library for creating all the static plots and charts. We've used it for precise control over elements like log scales and axis formatting (especially with ScalarFormatter).
+  - Seaborn: Built on top of Matplotlib, Seaborn has been key for creating more aesthetically pleasing and informative statistical graphics. We've used it for box plots, violin plots, bar plots, histograms, and scatter plots with regression lines to visualize distributions, comparisons, and correlations.
 
 # Project Description
   The foundation of this project lies in a rich collection of datasets focused on prominent social media channels and influencers. The primary source for this analysis includes publicly available data, such as the "Top 1000 Social Media Channels" dataset from Kaggle, which aggregates information on leading profiles across various platforms like Instagram, TikTok, and YouTube. These datasets offer a multifaceted view of the social media landscape, characterized by a diverse array of features. Key characteristics include quantitative metrics such as subscriber counts, average views, likes, comments, and shares, providing insights into audience size and engagement levels. Furthermore, qualitative attributes like content categories and audience demographics (e.g., country) offer context into the type of content being produced and the geographical distribution of the audience. The datasets vary in their specific columns and level of detail, reflecting the unique data points tracked by different platforms and data aggregators. By integrating and analyzing these diverse yet related datasets, this project aims to construct a holistic understanding of what defines success and influence in the contemporary social media ecosystem.
