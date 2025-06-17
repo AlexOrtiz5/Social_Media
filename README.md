@@ -63,11 +63,9 @@
   - Focusing on Engagement Rate: A significant step has been the development of a dedicated Engagement Rate Analysis. This critical metric normalizes interactions by audience size, providing a powerful way to assess the true impact and audience loyalty of influencers, beyond just their follower count. We've implemented specific calculations and visualizations to compare engagement across platforms and tiers.
 
 # Conclusion
-  So far, we've been working on analyzing social media influencer data from Instagram, TikTok, and YouTube. We've cleaned and merged the data, and started to explore things like engagement rates across these platforms. Initial looks suggest there might be some interesting differences in how engaging content is on each. For example, TikTok seems to have higher average engagement in our initial calculations or Instagram has a wider range of subscriber counts in our top influencers.
+  This project analyzed social media influencer data from Instagram, TikTok, and YouTube to understand the dynamics of online influence. We focused on key areas including audience scale (subscriber distribution and influencer tiers), engagement rates, content categories, and audience geography.
 
-  We also took a peek at the distribution of subscribers. This gave us a first glimpse into the kind of content and creators present on each platform.
-
-  This is just a starting point, and there's still a lot more to dig into with this data to really understand the dynamics of influencers on each platform and how they compare.
+  Through data cleaning, comprehensive analysis, and targeted visualizations (like scatter plots and tiered breakdowns), we've gained a holistic understanding of what defines success on each platform and how they compare. The insights gathered provide a strong foundation for understanding the diverse landscape of social media influence.
     
 # Contact
   linkedin, github, medium, etc 
