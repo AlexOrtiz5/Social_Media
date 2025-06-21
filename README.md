@@ -40,11 +40,15 @@
 
 # Technologies 
   List with used technologies:
-  - Python: This is the core programming language we've used for every step—from loading your data to performing complex analyses and generating stunning visualizations.
-  - Pandas: Absolutely crucial for handling your .csv files. We've relied heavily on Pandas DataFrames to read, clean, combine, and manipulate all your influencer data.
-  - Matplotlib: The foundational Python library for creating all the static plots and charts. We've used it for precise control over elements like log scales and axis formatting (especially with ScalarFormatter).
-  - Seaborn: Built on top of Matplotlib, Seaborn has been key for creating more aesthetically pleasing and informative statistical graphics. We've used it for box plots, violin plots, bar plots, histograms, and scatter plots with regression lines to visualize distributions, comparisons, and correlations.
-
+  - Python: As the core programming language, Python has powered every stage of this project. It has been instrumental in writing custom functions for complex data cleaning (such as converting "K" and "M" suffixes to numeric values), standardizing influencer names for cross-platform matching, implementing analytical logic for tier segmentation and engagement rate calculations, and orchestrating the entire data pipeline.
+  - Pandas: This library has been absolutely indispensable for all data handling. We've heavily relied on Pandas DataFrames to efficiently read and manage diverse CSV files, clean inconsistent column names, ensure data type consistency, perform complex data manipulations like filtering for specific content niches, grouping data for aggregation, and merging datasets for overlap analysis.
+  - Matplotlib: Serving as the foundational plotting library, Matplotlib has provided precise control over every visualization. We've leveraged it to customize elements, ensuring our charts are clear and informative, and to produce a wide array of static plots for various analytical views.
+  - Seaborn: Built on top of Matplotlib, Seaborn has significantly enhanced the aesthetic appeal and statistical informativeness of our graphics. We've used it extensively for creating:
+    - Histograms, Box Plots, and Violin Plots: To visualize data distributions and identify outliers in metrics like subscriber counts and engagement rates.
+    - Bar Plots: For comparing averages across platforms, content categories, and influencer tiers, as well as illustrating influencer overlap.
+    - Scatter Plots (with Regression Lines): To explore and visualize correlations between different quantitative metrics, such as subscribers vs. engagement.
+    - Heatmaps: For a quick overview of correlations across multiple numerical features.
+    
 # Project Description
   This project leverages a rich collection of publicly available datasets to dissect and understand prominent social media channels and influencers. Our primary data sources include aggregations of leading profiles across Instagram, TikTok, and YouTube, notably incorporating information similar to what's found in datasets like Kaggle's "Top 1000 Social Media Channels."
 
