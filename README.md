@@ -69,9 +69,11 @@
   - Analyzing Influencer Overlap / Cross-Platform Presence: A key aspect of understanding the ecosystem has been to identify and quantify influencers with a presence across multiple social media platforms. This involves standardizing influencer names for accurate matching and then calculating the unique and overlapping sets of creators, revealing patterns of multi-channel influence. While currently undergoing debugging due to name inconsistencies, this analysis remains a crucial component of our holistic understanding.
 
 # Conclusion
-  This project analyzed social media influencer data from Instagram, TikTok, and YouTube to understand the dynamics of online influence. We focused on key areas including audience scale (subscriber distribution and influencer tiers), engagement rates, content categories, and audience geography.
+  This project thoroughly analyzed social media influencer data from Instagram, TikTok, and YouTube. We focused on audience scale (subscriber tiers), engagement rates, content categories, and audience geography.
 
-  Through data cleaning, comprehensive analysis, and targeted visualizations (like scatter plots and tiered breakdowns), we've gained a holistic understanding of what defines success on each platform and how they compare. The insights gathered provide a strong foundation for understanding the diverse landscape of social media influence.
+  Our process involved rigorous data cleaning and preparation, including handling diverse data formats and standardizing metrics. This allowed us to perform in-depth analyses like comparing content niche performance across platforms and initiating influencer overlap detection (currently being refined).
+
+  Through comprehensive analysis and targeted visualizations, we've achieved a holistic understanding of what drives success and influence on each platform, and how they compare in the dynamic social media landscape.
     
 # Contact
   linkedin, github, medium, etc 
