@@ -50,13 +50,19 @@
     - Heatmaps: For a quick overview of correlations across multiple numerical features.
     
 # Project Description
-  This project leverages a rich collection of publicly available datasets to dissect and understand prominent social media channels and influencers. Our primary data sources include aggregations of leading profiles across Instagram, TikTok, and YouTube, notably incorporating information similar to what's found in datasets like Kaggle's "Top 1000 Social Media Channels."
+  This project utilizes a rich collection of publicly available datasets, notably from Instagram, TikTok, and YouTube, to dissect and understand prominent social media channels and influencers.
 
-  These datasets provide a multifaceted view of the contemporary social media landscape, characterized by a diverse array of features:
-  - Quantitative Metrics: We analyze key performance indicators such as subscriber/follower counts, average views, likes, comments, and shares. These metrics offer crucial insights into audience scale and engagement levels. We further process these to calculate Engagement Rates, providing a normalized view of audience interaction.
-  - Qualitative Attributes: To add context, we utilize features like content categories, which shed light on the types of content being produced. Additionally, audience demographics, particularly country-specific audience distribution, offer insights into the geographical reach of influencers.
-  
-  By integrating and analyzing these diverse yet related datasets, this project aims to construct a holistic understanding of what defines success and influence within the dynamic social media ecosystem. Our analysis includes tier segmentation of influencers based on follower size, correlation analysis between various metrics, and cross-platform comparisons to highlight unique dynamics of each social media giant.
+  Our analysis provides a multifaceted view of the contemporary social media landscape through:
+  - Comprehensive Data Processing: We integrate and meticulously clean heterogeneous datasets, handling inconsistencies and converting raw metrics (e.g., "K" and "M" suffixes) to ensure data type consistency. This also includes standardizing influencer names for cross-platform comparisons.
+  - Key Performance Indicators: We analyze crucial quantitative metrics like subscriber/follower counts, engagement rates (derived from views, likes, comments, and shares), and qualitative attributes such as content categories and audience geography.
+  - In-depth Analysis & Insights: Our work encompasses:
+    - Influencer Tier Segmentation: Categorizing influencers by audience size.
+    - Correlation Analysis: Exploring relationships between various metrics.
+    - Engagement Rate Deep Dive: Understanding true audience interaction.
+    - Content Niche Performance: Comparing success within specific content categories across platforms.
+    - Cross-Platform Presence: Identifying influencers active on multiple platforms.
+
+  By integrating and analyzing these diverse datasets, this project aims to construct a holistic understanding of what defines success and influence within the dynamic social media ecosystem.
 
 # Steps
   - Handling Data Heterogeneity & Column Mapping: Right from the start, we confronted significant inconsistencies in column names across the Instagram, TikTok, and YouTube datasets (e.g., different casing, use of spaces vs. underscores, varied terminology). This immediately highlighted the crucial need for meticulous column mapping and a robust, consistent cleaning process, which has been foundational for enabling any effective merging and analysis.
