@@ -75,11 +75,11 @@
   - Analyzing Influencer Overlap / Cross-Platform Presence: A key aspect of understanding the ecosystem has been to identify and quantify influencers with a presence across multiple social media platforms. This involves standardizing influencer names for accurate matching and then calculating the unique and overlapping sets of creators, revealing patterns of multi-channel influence. While currently undergoing debugging due to name inconsistencies, this analysis remains a crucial component of our holistic understanding.
 
 # Conclusion
-  This project thoroughly analyzed social media influencer data from Instagram, TikTok, and YouTube. We focused on audience scale (subscriber tiers), engagement rates, content categories, and audience geography.
+  This project has thoroughly analyzed social media influencer data from Instagram, TikTok, and YouTube, focusing on a multi-faceted understanding of digital influence. We've conducted in-depth explorations of audience scale through segmented subscriber tiers, normalized engagement rates, diverse content categories, and audience geography.
 
-  Our process involved rigorous data cleaning and preparation, including handling diverse data formats and standardizing metrics. This allowed us to perform in-depth analyses like comparing content niche performance across platforms and initiating influencer overlap detection (currently being refined).
+  Our process has involved rigorous and robust data cleaning and preparation, including handling diverse data formats and standardizing metrics through a centralized preprocessing pipeline. This allowed us to perform sophisticated analyses such as identifying high-performing outliers, comparing content niche performance across platforms, and notably, examining how engagement rates vary specifically across different influencer tiers. We have also initiated influencer overlap detection, which continues to be a point of refinement.
 
-  Through comprehensive analysis and targeted visualizations, we've achieved a holistic understanding of what drives success and influence on each platform, and how they compare in the dynamic social media landscape.
+  Through these comprehensive analyses and targeted visualizations, we've achieved a holistic understanding of what drives success and influence on each platform, and how they compare within the dynamic social media landscape, providing valuable insights into platform-specific audience engagement dynamics.
     
 # Contact
   linkedin, github, medium, etc 
