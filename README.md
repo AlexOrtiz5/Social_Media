@@ -50,19 +50,20 @@
     - Heatmaps: For a quick overview of correlations across multiple numerical features.
     
 # Project Description
-  This project utilizes a rich collection of publicly available datasets, notably from Instagram, TikTok, and YouTube, to dissect and understand prominent social media channels and influencers.
+  This project utilizes a rich collection of publicly available datasets from Instagram, TikTok, and YouTube to dissect and understand prominent social media channels and influencers.
 
   Our analysis provides a multifaceted view of the contemporary social media landscape through:
-  - Comprehensive Data Processing: We integrate and meticulously clean heterogeneous datasets, handling inconsistencies and converting raw metrics (e.g., "K" and "M" suffixes) to ensure data type consistency. This also includes standardizing influencer names for cross-platform comparisons.
-  - Key Performance Indicators: We analyze crucial quantitative metrics like subscriber/follower counts, engagement rates (derived from views, likes, comments, and shares), and qualitative attributes such as content categories and audience geography.
+  - Comprehensive and Robust Data Processing: We integrate and meticulously clean heterogeneous datasets. This includes handling inconsistencies, converting raw metrics (e.g., "K" and "M" suffixes), ensuring data type consistency, and implementing a centralized column mapping strategy to produce standardized DataFrames across all platforms. This robust preprocessing also involves standardizing influencer names for cross-platform comparisons.
+  - Key Performance Indicators: We analyze crucial quantitative metrics like subscriber/follower counts, and normalized engagement rates (derived from average likes, comments, and shares), alongside qualitative attributes such as content categories and audience geography.
   - In-depth Analysis & Insights: Our work encompasses:
-    - Influencer Tier Segmentation: Categorizing influencers by audience size.
-    - Correlation Analysis: Exploring relationships between various metrics.
-    - Engagement Rate Deep Dive: Understanding true audience interaction.
-    - Content Niche Performance: Comparing success within specific content categories across platforms.
-    - Cross-Platform Presence: Identifying influencers active on multiple platforms.
+    - Influencer Tier Segmentation: Categorizing influencers by audience size to analyze their distinct characteristics.
+    - Engagement Rate Analysis & Outlier Detection: Deep diving into true audience interaction, including statistical identification of high and low-performing influencers.
+    - Tier-Specific Engagement Dynamics: Investigating how engagement rates vary significantly across different influencer tiers (Nano, Micro, Mid, Macro, Mega) on each platform.
+    - Correlation Analysis: Exploring relationships between various metrics to uncover underlying trends.
+    - Content Niche Performance: Comparing success and audience engagement within specific content categories across platforms.
+    - Cross-Platform Presence & Comparison: Identifying influencers active on multiple platforms and conducting comparative analyses of platform-specific dynamics.
 
-  By integrating and analyzing these diverse datasets, this project aims to construct a holistic understanding of what defines success and influence within the dynamic social media ecosystem.
+  By integrating and analyzing these diverse datasets with a refined methodology, this project aims to construct a holistic understanding of what defines success and influence within the dynamic social media ecosystem.
 
 # Steps
   - Handling Data Heterogeneity & Column Mapping: Right from the start, we confronted significant inconsistencies in column names across the Instagram, TikTok, and YouTube datasets (e.g., different casing, use of spaces vs. underscores, varied terminology). This immediately highlighted the crucial need for meticulous column mapping and a robust, consistent cleaning process, which has been foundational for enabling any effective merging and analysis.
