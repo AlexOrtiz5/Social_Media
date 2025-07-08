@@ -1,5 +1,5 @@
 # Social_Media
-  Project status(Active)
+  Project status (Active)
 
 # Project objective
   This project meticulously explores social media influence across Instagram, TikTok, and YouTube, utilizing diverse datasets of top influencers. Through rigorous data cleaning, preprocessing, and standardization of metrics like subscriber counts and engagement rates, we analyze audience scale, conduct statistical outlier detection, and specifically investigate engagement dynamics across various influencer tiers. By comparing trends, content categories, and audience geography, the objective is to reveal comprehensive insights into platform-specific audience engagement and the fundamental anatomy of online influence within the digital landscape Leveraging datasets that provide insights into top influencers across various platforms, such as the one available on Kaggle (https://www.kaggle.com/datasets/ramjasmaurya/top-1000-social-media-channels).
@@ -36,7 +36,6 @@
     - Subscriber Growth Rate (if temporal data is available within a merged file).
   - Basic Statistical Analysis:
     - Calculating correlations between different numerical variables (e.g., subscribers and views).
-    - Performing t-tests or ANOVA to compare the means of engagement metrics across different groups (e.g., categories).
 
 # Technologies 
   List with used technologies:
@@ -83,4 +82,4 @@
   Through these comprehensive analyses and targeted visualizations, we've achieved a holistic understanding of what drives success and influence on each platform, and how they compare within the dynamic social media landscape, providing valuable insights into platform-specific audience engagement dynamics.
     
 # Contact
-  linkedin, github, medium, etc 
+  linkedin, github, etc 
